@@ -11,6 +11,7 @@ from st_speckmol import speck_plot
 st.title("Dataflow design studio")
 st.markdown('<p style="font-size:25px">Statistics are just <b style="color:blue">one face</b> of reality</p>', unsafe_allow_html=True)
 
+st.subheader("Tu préfères Bioman ou la biodata ?")
 
 # Example files path
 ex_files = glob.glob("data/datum.xyz")
